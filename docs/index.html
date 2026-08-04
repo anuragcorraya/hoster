@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hoster — Placeholder</title>
+  <style>
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; padding: 3rem; color: #111; }
+    .card { max-width: 760px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #e6e6e6; border-radius: 8px; box-shadow: 0 6px 24px rgba(17,17,17,0.04);} 
+    h1 { margin-top: 0 }
+    code { background:#f6f8fa; padding: 0.2rem 0.4rem; border-radius:4px }
+    a.button { display:inline-block; margin-top:1rem; padding:0.6rem 1rem; background:#0366d6; color:#fff; text-decoration:none; border-radius:6px }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hoster</h1>
+    <p>This is a placeholder static site for the Hoster project. The original project contains a Node.js backend which cannot run on GitHub Pages.</p>
+
+    <h3>How to use</h3>
+    <ol>
+      <li>The backend runs with Node.js. To start it locally:
+        <pre><code>cd backend
+npm install
+node backend/server.js</code></pre>
+      </li>
+      <li>API endpoints are available at <code>http://localhost:3000/api/</code> by default.</li>
+      <li>This static page is deployed to GitHub Pages. If you need the full app (backend + Docker), deploy the backend to a server (Railway/Render/Vercel for Node, or a VPS) or run locally.</li>
+    </ol>
+
+    <p>Useful links:</p>
+    <ul>
+      <li><a href="https://github.com/anuragcorraya/hoster">Repository on GitHub</a></li>
+      <li><a href="/">Local server (after starting backend)</a></li>
+    </ul>
+
+    <p>If you want, I can also add a minimal frontend that talks to the backend and deploy a complete demo (requires a running backend).</p>
+
+    <a class="button" href="https://github.com/anuragcorraya/hoster">Open repo on GitHub</a>
+  </div>
+</body>
+</html>
