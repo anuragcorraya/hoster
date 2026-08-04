@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hoster — Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Hoster — Projects</h1>
+  </header>
+  <main>
+    <section id="upload">
+      <h2>Create project (upload ZIP)</h2>
+      <form id="uploadForm">
+        <input type="text" name="projectName" placeholder="Project name" />
+        <input type="file" name="zip" accept=".zip" />
+        <button type="submit">Upload & Create</button>
+      </form>
+      <div id="uploadResult" class="muted"></div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projectsList">Loading…</div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
